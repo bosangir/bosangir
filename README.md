@@ -44,10 +44,6 @@ SUMO is an R package for generating multi-omics datasets with configurable laten
 
 M-ABC is an integrative clustering framework for combining cluster evidence across multiple omics or other data sources. It applies ensemble clustering within each dataset and integrates the resulting sample-level dissimilarities.
 
-### Adaptive multi-omics biclustering
-
-This research investigates adaptive statistical models for identifying coordinated subsets of samples and features across multiple omics layers, with emphasis on sparse structures, weak-signal detection, noise-robust estimation and accelerated computation using R and C++.
-
 ### vaxsurvR
 
 An R-based project supporting reproducible vaccine-surveillance and vaccine-effectiveness analyses through structured epidemiological workflows, statistical analysis and transparent reporting.
