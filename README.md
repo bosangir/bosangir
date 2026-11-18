@@ -1,5 +1,10 @@
 # Bernard Isekah Osang'ir
 
+[![GitHub](https://img.shields.io/badge/GitHub-bosangir-181717?style=flat&logo=github)](https://github.com/bosangir)
+[![Email](https://img.shields.io/badge/Email-Contact-8B1E3F?style=flat&logo=gmail&logoColor=white)](mailto:b.osangir@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-bosangir.github.io-0D8A7E?style=flat&logo=githubpages&logoColor=white)](https://bosangir.github.io/portifolio/)
+[![Neudata](https://img.shields.io/badge/Neudata-Consulting-1F4E79?style=flat)](https://www.neu-data.com)
+
 Biostatistician, co-founder of [Neudata Consulting](https://www.neu-data.com), and PhD researcher in statistical bioinformatics at SCK CEN and Hasselt University, Belgium.
 
 **Portfolio:** [bosangir.github.io/portifolio](https://bosangir.github.io/portifolio/), with interactive examples of survival analysis, Bayesian vaccine efficacy, sample-size calculation, clustering and cluster-survey estimation.
@@ -32,6 +37,12 @@ My PhD develops interpretable and reproducible methods for high-dimensional biol
 | [statistical-inference](https://github.com/bosangir/statistical-inference) | Teaching materials | Available |
 
 ## Methods and tools
+
+![R](https://img.shields.io/badge/R-Statistical_Computing-276DC3?style=flat&logo=r&logoColor=white)
+![C++](https://img.shields.io/badge/C++-High--Performance_Computing-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Data_Science-3776AB?style=flat&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=flat&logo=git&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-Scientific_Writing-008080?style=flat&logo=latex&logoColor=white)
 
 Clinical trials and epidemiology: statistical analysis plans, DSMB reports, mixed models for repeated measures, immunogenicity and safety analyses, survival analysis, vaccine effectiveness and seroprevalence.
 
