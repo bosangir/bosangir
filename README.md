@@ -1,120 +1,52 @@
-<div align="center">
-
 # Bernard Isekah Osang'ir
 
-### Biostatistician · Bioinformatics Researcher · Statistical Software Developer
+Biostatistician, co-founder of [Neudata Consulting](https://www.neu-data.com), and PhD researcher in statistical bioinformatics at SCK CEN and Hasselt University, Belgium.
 
-Developing statistical methods and reproducible software for multi-omics integration, clustering, biclustering and biomedical research.
-
-[![GitHub](https://img.shields.io/badge/GitHub-bosangir-181717?style=flat&logo=github)](https://github.com/bosangir)
-[![Email](https://img.shields.io/badge/Email-Contact-8B1E3F?style=flat&logo=gmail&logoColor=white)](mailto:b.osangir@gmail.com)
-
-</div>
-
----
+**Portfolio:** [bosangir.github.io/portifolio](https://bosangir.github.io/portifolio/), with interactive examples of survival analysis, Bayesian vaccine efficacy, sample-size calculation, clustering and cluster-survey estimation.
 
 ## About me
 
-I am a biostatistician and PhD researcher working at the intersection of statistics, bioinformatics and computational biology. My research focuses on developing interpretable and reproducible methods for analysing high-dimensional biological data, particularly data collected across multiple omics platforms.
+I have worked with research data for more than ten years, on clinical trials and cohort studies in Kenya, the Democratic Republic of the Congo and Belgium. I designed data systems and ran analyses for HIV-prevention studies at KEMRI and the University of Washington, and for a phase II Ebola vaccine trial with the University of Antwerp.
 
-My work combines statistical methodology, computational implementation and biological applications. I am especially interested in methods that identify coordinated structures across datasets while accounting for heterogeneity, noise and weak biological signals.
+In 2025 I co-founded Neudata Consulting Ltd, which offers biostatistics, data science, research data management and training. Through Neudata I also serve on the Data and Safety Monitoring Board of a DNDi trial in the DRC.
 
-## Research interests
+My PhD develops interpretable and reproducible methods for high-dimensional biological data, particularly data measured on several omics platforms. I am interested in methods that find shared structure across datasets when signals are weak or uneven. I also teach R programming, data management and biostatistics at Hasselt University and the University of Antwerp.
 
-- Multi-omics data integration
-- Integrative clustering and ensemble learning
-- Biclustering and adaptive biclustering
-- Latent-factor and matrix-factorisation methods
-- Simulation of complex biological datasets
-- Statistical learning for biomedical research
-- Reproducible statistical software
-- Clinical and public-health data analysis
+## Research and software
 
-## Selected research and software
+**SUMO: Simulation Utilities for Multi-Omics data.** An R package that generates multi-omics datasets with chosen latent factors, signal blocks, noise levels and heterogeneity, so that factor-analysis, clustering and biclustering methods can be tested against a known truth. Published in *Bioinformatics Advances* (2025).
 
-### SUMO
+**M-ABC: Multi-data Aggregating Bundles of Clusters.** An integrative clustering method that runs ensemble clustering within each data source and combines the sample-level dissimilarities into one consensus structure. Manuscript under review.
 
-**Simulation Utilities for Multi-Omics Data**
+**Adaptive biclustering.** Methods for finding groups of features that behave together in only some samples, across omics layers. In development.
 
-SUMO is an R package for generating multi-omics datasets with configurable latent factors, signal structures, noise levels and biological heterogeneity. It supports the development and evaluation of statistical and computational methods, including factor analysis, clustering and biclustering.
-
-### M-ABC
-
-**Multi-data Aggregating Bundles of Clusters**
-
-M-ABC is an integrative clustering framework for combining cluster evidence across multiple omics or other data sources. It applies ensemble clustering within each dataset and integrates the resulting sample-level dissimilarities.
-
-### vaxsurvR
-
-An R-based project supporting reproducible vaccine-surveillance and vaccine-effectiveness analyses through structured epidemiological workflows, statistical analysis and transparent reporting.
-
-## Technical expertise
-
-![R](https://img.shields.io/badge/R-Statistical_Computing-276DC3?style=flat&logo=r&logoColor=white)
-![C++](https://img.shields.io/badge/C++-High--Performance_Computing-00599C?style=flat&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-Data_Science-3776AB?style=flat&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=flat&logo=git&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-Scientific_Writing-008080?style=flat&logo=latex&logoColor=white)
-
-### Statistical methods
-
-- Multivariate statistical analysis
-- Cluster and bicluster analysis
-- Factor analysis and latent-variable modelling
-- Survival analysis
-- Simulation studies
-- Machine learning
-- Bootstrap and ensemble methods
-- Model evaluation and benchmarking
-
-### Research software
-
-- R package development
-- R Markdown and Quarto
-- Shiny applications
-- Reproducible analytical pipelines
-- C++ integration with R
-- Scientific visualisation
-- Technical documentation
-
-## Current focus
-
-1. Integrating heterogeneous multi-omics datasets
-2. Detecting stable sample and feature structures
-3. Improving clustering and biclustering under weak or heterogeneous signals
-4. Simulating realistic multi-omics data for method evaluation
-5. Translating statistical methodology into accessible research software
-
-## Teaching and knowledge sharing
-
-I develop practical learning materials in biostatistics, statistical inference, clinical-data analysis, R programming, reproducible research, bioinformatics and multi-omics analysis.
-
-## Collaboration
-
-I welcome collaborations involving multi-omics methodology, integrative clustering, biclustering, simulation studies, statistical software, clinical research and public-health analytics.
-
-## Selected repositories
+**vaxsurvR.** Data management, quality checks, de-identification and analysis of vaccination coverage surveys, with reproducible reports.
 
 | Project | Focus | Status |
 |---|---|---|
-| **SUMO** | Multi-omics data simulation | Active development |
-| **M-ABC** | Integrative multi-source clustering | Research development |
-| **Adaptive biclustering** | Multi-omics bicluster discovery | Methodological development |
-| **vaxsurvR** | Vaccine-surveillance analysis | Active development |
-| **Statistical inference** | Teaching and reproducible examples | Available |
+| SUMO | Multi-omics data simulation | Published, active development |
+| M-ABC | Integrative multi-source clustering | Under review |
+| Adaptive biclustering | Multi-omics bicluster discovery | In development |
+| [vaxsurvR](https://github.com/bosangir/vaxsurvR) | Vaccination coverage surveys | Active development |
+| [Ebola-VE](https://github.com/bosangir/Ebola-VE) | Data quality checks for vaccine data | Active development |
+| [statistical-inference](https://github.com/bosangir/statistical-inference) | Teaching materials | Available |
+
+## Methods and tools
+
+Clinical trials and epidemiology: statistical analysis plans, DSMB reports, mixed models for repeated measures, immunogenicity and safety analyses, survival analysis, vaccine effectiveness and seroprevalence.
+
+Survey statistics: cluster and stratified designs, weights, design effects and coverage estimation.
+
+Multi-omics and machine learning: factor analysis and latent-variable models, cluster and bicluster analysis, ensemble methods, simulation studies, and model evaluation and benchmarking.
+
+Research data management: REDCap and ODK database design, validation rules, query management, de-identification and data management plans.
+
+Software: R (package development, Rcpp, Shiny, R Markdown and Quarto), SAS, Python, SQL and Git.
 
 ## Contact
 
-- **GitHub:** [github.com/bosangir](https://github.com/bosangir)
-- **Email:** [b.osangir@gmail.com](mailto:b.osangir@gmail.com)
-- **Website:** Professional research website coming soon
+- Email: [b.osangir@gmail.com](mailto:b.osangir@gmail.com)
+- Portfolio: [bosangir.github.io/portifolio](https://bosangir.github.io/portifolio/)
+- Neudata Consulting: [neu-data.com](https://www.neu-data.com) and [github.com/neu-data](https://github.com/neu-data)
 
----
-
-<div align="center">
-
-### Statistics · Computation · Biological insight
-
-*Building reproducible methods and software for complex biomedical data.*
-
-</div>
+I welcome collaboration on multi-omics methods, clustering and biclustering, simulation studies, statistical software, clinical research and public-health analytics.
